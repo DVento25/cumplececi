@@ -2,45 +2,91 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Cecilia Cumpleaños</title>
 	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
 <div class="container">
 	<h1 class="center">Feliz Cumpleaños Cecilia</h1>
+	<h4>Algunos recuerdos</h4>
+	<!-- <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="img/1.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="img/2.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="img/3.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="img/4.jpg"></a>
+  </div> -->
 	<div class="slider">
     <ul class="slides">
       <li>
-        <img src="img/5.jpg"> 
+        <img src="img/1.jpg"> 
         <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h3>Cecilia con el ramen</h3>
+          <h5 class="light grey-text text-lighten-3">El ramen era lonche y cena</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/2.jpg"> 
+        <div class="caption left-align">
+          <h3>Ramen</h3>
+          <h5 class="light grey-text text-lighten-3">Buen ramen a 20 soles.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/3.jpg"> 
+        <div class="caption right-align">
+          <h3>Pizza de Cartón</h3>
+          <h5 class="light grey-text text-lighten-3">Pedimos una pizza de cartón con piña</h5>
+        </div>
+      </li>
+       <li>
+        <img src="img/4.jpg"> 
+        <div class="caption center-align">
+          <h3>Ceci tomando foto.</h3>
+          <h5 class="light grey-text text-lighten-3">Tomando foto a la comida coreana</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/5.jpg"> 
+        <div class="caption left-align">
+          <h3>Comida coreana</h3>
+          <h5 class="light grey-text text-lighten-3">Buena comida coreana pero nos falto comer más</h5>
         </div>
       </li>
       <li>
         <img src="img/6.jpg"> 
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        <div class="caption right-align">
+          <h3>Yo con el dibujo que hice</h3>
+          <h5 class="light grey-text text-lighten-3">Un intento de dibujo que hice</h5>
+        </div>
+      </li>
+       <li>
+        <img src="img/7.jpg"> 
+        <div class="caption center-align">
+          <h3>Limonada de 10 soles</h3>
+          <h5 class="light grey-text text-lighten-3">Limonada en real plaza que nos costo 10 soles</h5>
         </div>
       </li>
       <li>
-        <img src="img/14.jpg"> 
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        <img src="img/8.jpg"> 
+        <div class="caption left-align">
+          <h3>La Zatapilla</h3>
+          <h5 class="light grey-text text-lighten-3">La zapatilla que venden en la resi</h5>
         </div>
       </li>
     </ul>
   </div>
-</div>
-	
+</div><br><br>
+	 <div class="center"><a class="waves-effect waves-light btn" href="cumple.html">Feliz Cumpleaños</a></div>
 
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/materialize.js"></script>
 	<script>
 		$(document).ready(function(){
-		  $('.slider').slider();
+		$('.slider').slider({
+		  	interval: 3000
+		  });
 		});
 	</script>
 </body>

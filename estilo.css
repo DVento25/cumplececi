@@ -1,0 +1,26 @@
+body{
+	background-image: url(img/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100vw 100vh;
+}
+img{
+	
+	height: 1000px;
+}
+
+h1{
+	font-weight: bold;
+}
+h4{
+	font-weight: bold;
+}
+
+label{
+	font-size: 30px;
+	font-weight: bold;
+}
+a{
+	font-size: 25px;
+	font-weight: bold;
+}
